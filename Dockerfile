@@ -1,3 +1,5 @@
+FROM tomcat:10.1
+
 RUN rm -rf apache-tomcat-10.1.30/webapps/*
 
 COPY *.war apache-tomcat-10.1.30/webapps
