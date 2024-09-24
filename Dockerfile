@@ -1,6 +1,6 @@
-RUN rm -rf /usr/local/tomcat/webapps/*
+RUN rm -rf apache-tomcat-10.1.30/webapps/*
 
-COPY *.war /usr/local/tomcat/webapps
+COPY *.war apache-tomcat-10.1.30/webapps
 
 EXPOSE 8080
 
